@@ -1,0 +1,11 @@
+body {
+    direction: rtl;
+}
+
+#header.alt nav {
+    left: 2.5em;
+}
+
+#header nav {
+    left: 1.5em;
+}

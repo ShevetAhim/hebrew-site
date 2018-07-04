@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+
+    {% include "includes/banner.html" %}
+
+    <article id="main">
+        {% include "includes/about.html" %}
+        {% include "includes/green_story.html" %}
+        {% include "includes/stories.html" %}
+        {% include "includes/services.html" %}
+    </article>
+
+    {% include "includes/cta.html" %}
+
+{% endblock %}
