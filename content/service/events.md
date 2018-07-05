@@ -1,6 +1,6 @@
 Title: אירועים וסדנאות
 Author: יזהר גוריון
-Image: /images/events/main.jpg
+Image: images/events/main.jpg
 Date: 2.1.2000
 
 בואו לחגוג אתנו אירוע משפחתי מצומצם, יוצא דופן ומרגש במקום מיוחד ונדיר בטבע.

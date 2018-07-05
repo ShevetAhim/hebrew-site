@@ -2,7 +2,7 @@ Title: מצא את המטמון בגליל התחתון – לא לילדים ב
 Date: 2013-03-07 15:16
 Author: Nagasaki45
 Slug: geocaching
-Image: /images/stories/geocaching.jpg
+Image: images/stories/geocaching.jpg
 
 למי מאיתנו לא זכורות לטובה חוויות מהמשחק "מצא את המטמון" שנהגנו לשחק בילדותנו. בין אם בימי הולדת או בקייטנה, מציאת האוצר הנכסף תמיד עוררה התרגשות רבה.
 

@@ -2,7 +2,7 @@ Title: אומנות בטבאש
 Date: 2016-08-20 16:00
 Author: יזהר גוריון
 Slug: art-in-tabash
-Image: /images/stories/omar.jpg
+Image: images/stories/omar.jpg
 Tags: אומן מתכת, פסל מתכת
 Summary: עומאר, תושב הכפר טבאש, פסל ואמן מתכת מקורי ביצירתו ואישיותו.
 

@@ -1776,7 +1776,7 @@ input, select, textarea {
 		}
 
 		header.special .icon:before {
-        content: url("/theme/images/logo-single-large.png");
+        content: url("../images/logo-single-large.png");
 				opacity: 0.35;
 			}
 
@@ -2512,7 +2512,7 @@ input, select, textarea {
 	#banner {
 		background-attachment: scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/overlay.png"), url("/theme/images/banner.jpg");
+		background-image: url("images/overlay.png"), url("../images/banner.jpg");
 		background-position: top left, top center;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
@@ -2606,7 +2606,7 @@ input, select, textarea {
 	#cta {
 		background-attachment: scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/overlay.png"), url("/theme/images/banner.jpg");
+		background-image: url("images/overlay.png"), url("../images/banner.jpg");
 		background-position: top left, bottom center;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
@@ -2837,7 +2837,7 @@ input, select, textarea {
 				}
 
         header.special .icon:before {
-          content: url("/theme/images/logo-single-small.png");
+          content: url("../images/logo-single-small.png");
           top: 0.5em;
         }
 
