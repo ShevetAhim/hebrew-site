@@ -8,7 +8,7 @@
 <head>
     {% include "includes/head.html" %}
 </head>
-<body class="index is-preload">
+<body class="{% if output_file == 'index.html' %}index{% else %}no-sidebar{% endif %} is-preload">
 		<div id="page-wrapper">
 
         {% include "includes/header.html" %}

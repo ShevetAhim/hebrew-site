@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+
+    <article id="main">
+        <header class="special container">
+            <span class="icon"></span>
+            <h2>{{ article.title }}</strong></h2>
+        </header>
+
+        <section class="wrapper style4 container">
+
+            <!-- Content -->
+            <div class="content">
+                <section>
+                <a href="#" class="image featured"><img src="{{ article.image }}" alt="" /></a>
+                {{ article.content }}
+                </section>
+            </div>
+
+        </section>
+    </article>
+
+{% endblock %}
