@@ -1900,22 +1900,52 @@ input, select, textarea {
 		}
 
 		.icon.circle {
-			-moz-transition: all 0.2s ease-in-out;
-			-webkit-transition: all 0.2s ease-in-out;
-			-ms-transition: all 0.2s ease-in-out;
-			transition: all 0.2s ease-in-out;
-			border: 0;
-			border-radius: 100%;
-			display: inline-block;
-			font-size: 1.25em;
-			height: 2.25em;
-			left: 0;
-			line-height: 2.25em;
-			text-align: center;
-			text-decoration: none;
-			top: 0;
-			width: 2.25em;
+			  -moz-transition: all 0.2s ease-in-out;
+			  -webkit-transition: all 0.2s ease-in-out;
+			  -ms-transition: all 0.2s ease-in-out;
+			  transition: all 0.2s ease-in-out;
+			  border: 0;
+			  border-radius: 100%;
+			  display: inline-block;
+			  font-size: 1.25em;
+			  height: 2.25em;
+			  left: 0;
+			  line-height: 2.25em;
+			  text-align: center;
+			  text-decoration: none;
+			  top: 0;
+			  width: 2.25em;
 		}
+
+    #header nav ul li a.icon {
+        -moz-transition: all 0.2s ease-in-out;
+        -webkit-transition: all 0.2s ease-in-out;
+        -ms-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+        border-radius: 100%;
+        display: inline-block;
+        left: 0;
+        text-align: center;
+        text-decoration: none;
+        top: 0;
+        width: 2.25em;
+        background: #7490c3;
+        color: #fff;
+    }
+
+    #header.alt nav ul li:hover a.icon {
+        background: inherit;
+        color: inherit;
+		}
+
+    #header nav ul li:hover a.icon {
+        background: rgba(188, 202, 206, 0.15);
+        color: #7490c3;
+		}
+
+    /* #header nav ul li:hover > a.icon { */
+    /*     background: #4267b2; */
+    /* } */
 
 			.icon.circle:hover {
 				top: -0.2em;
@@ -2290,6 +2320,7 @@ input, select, textarea {
 	}
 
 	#header {
+    padding-bottom: 2.5em !important;
 		background: #fff;
 		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075);
 		color: inherit;
@@ -3334,4 +3365,19 @@ input, select, textarea {
 
 .padding-right {
     padding-right: 3em;
+}
+
+.resp-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+.resp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
 }

@@ -35,3 +35,4 @@ DEFAULT_PAGINATION = False
 #RELATIVE_URLS = True
 
 THEME = 'theme'
+SLUGIFY_SOURCE = 'basename'

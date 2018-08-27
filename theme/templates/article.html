@@ -9,17 +9,23 @@
             <h2>{{ article.title }}</strong></h2>
         </header>
 
-        <section class="wrapper style4 container">
+        {% if article.content %}
+            <section class="wrapper style4 container">
 
-            <!-- Content -->
-            <div class="content">
-                <section>
-                <a href="#" class="image featured"><img src="{{ article.image }}" alt="" /></a>
-                {{ article.content }}
-                </section>
-            </div>
+                <!-- Content -->
+                <div class="content">
+                    <section>
+                        {% if article.image %}
+                            <dif class="image featured">
+                                <img src="{{ article.image }}" alt="{{ article.title }}" />
+                            </div>
+                        {% endif %}
+                    {{ article.content }}
+                    </section>
+                </div>
 
-        </section>
+            </section>
+        {% endif %}
     </article>
 
 {% endblock %}
