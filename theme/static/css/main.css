@@ -3381,3 +3381,11 @@ input, select, textarea {
     height: 100%;
     border: 0;
 }
+
+footer #bcom_review_widget #bcom_review_widget_wrapper .featured-review, footer #bcom_review_widget #bcom_review_widget_wrapper .featured-review .url {
+    width: 100% !important;
+}
+
+footer .cdsROW.narrow {
+    width: 100%
+}
