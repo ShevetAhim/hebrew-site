@@ -1929,8 +1929,15 @@ input, select, textarea {
         text-decoration: none;
         top: 0;
         width: 2.25em;
-        background: #7490c3;
         color: #fff;
+    }
+
+    #header nav ul li a.icon.fa-facebook {
+        background: #7490c3;
+    }
+
+    #header nav ul li a.icon.fa-instagram {
+        background: #bd2f9a;
     }
 
     #header.alt nav ul li:hover a.icon {
@@ -2371,7 +2378,7 @@ input, select, textarea {
 						color: inherit;
 						display: inline-block;
 						line-height: 1em;
-						padding: 0.6em 0.75em;
+						padding: 0.55em;
 						text-decoration: none;
 					}
 
