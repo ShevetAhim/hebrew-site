@@ -2228,6 +2228,10 @@ input, select, textarea {
 
 /* Wrapper */
 
+.padding-bottom {
+	padding-bottom: 3em;
+}
+
 	.wrapper {
 		margin-bottom: 5em;
 		padding: 5em;
