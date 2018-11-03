@@ -254,11 +254,24 @@ input, select, textarea {
 
 /* Row */
 
+.vertical-padding {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
 	.row {
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+	}
+
+	.row.full-width {
+		margin-left: 0px;
+	}
+
+	.row > .full-width {
+		padding: 0px;
 	}
 
 		.row > * {
@@ -1859,7 +1872,6 @@ input, select, textarea {
 			content: '';
 			height: 100%;
 			left: 0;
-			position: absolute;
 			top: 0;
 			width: 100%;
 		}
@@ -2227,6 +2239,10 @@ input, select, textarea {
 		}
 
 /* Wrapper */
+
+.padding-bottom {
+	padding-bottom: 3em;
+}
 
 	.wrapper {
 		margin-bottom: 5em;
