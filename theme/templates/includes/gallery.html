@@ -1,0 +1,9 @@
+<div class="row full-width vertical-padding">
+    {% for n in range(num_of_images) %}
+    <div class="col-4 col-12-narrower full-width">
+        <div class="image fit">
+            <a href="images/{{ gallery }}/{{ n }}.jpg"><img src="images/{{ gallery }}/{{ n }}.jpg"></a>
+        </div>
+    </div>
+    {% endfor %}
+</div>
