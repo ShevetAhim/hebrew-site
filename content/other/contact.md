@@ -4,8 +4,8 @@ date: 1.1.2000
 
 בכל שאלה נשמח לשמוע מכם, בטלפון או באמצעות הטופס מטה.
 
-יזהר: 0526941188<br >
-אירית: 0526941141
+יזהר: <a href="tel:+972526941188">0526941188</a><br >
+אירית: <a href=tel:+972526941141">0526941141</a>
 
 <div class="padding-bottom">
     <form action="//formspree.io/bros.tribe@gmail.com" method="POST">
