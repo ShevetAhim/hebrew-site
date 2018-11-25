@@ -3412,3 +3412,20 @@ footer #bcom_review_widget #bcom_review_widget_wrapper .featured-review, footer 
 footer .cdsROW.narrow {
     width: 100%
 }
+
+.button.whatsapp {
+    display: none;
+    background-color: #5bca51;
+    color: white;
+}
+
+.button.whatsapp:hover {
+    background-color: #28a219;
+}
+
+@media only screen and (max-width: 720px) {
+    .button.whatsapp {
+        display: block;
+        min-width: 100%;
+    }
+}
