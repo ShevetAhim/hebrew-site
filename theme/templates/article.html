@@ -15,9 +15,9 @@
             <div class="content">
                 <section>
                     {% block article_content %}
-                        {% if article.image %}
+		        {% if article.full_image or article.image %}
                             <div class="image featured">
-                                <img src="{{ article.image }}" alt="{{ article.title }}" />
+				<img src="{% if article.full_image %}{{ article.full_image }}{% else %}{{ article.image }}{% endif %}" alt="{{ article.title }}" />
                             </div>
                         {% endif %}
                         {{ article.content }}
