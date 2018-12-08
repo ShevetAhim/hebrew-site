@@ -266,14 +266,6 @@ input, select, textarea {
 		align-items: stretch;
 	}
 
-	.row.full-width {
-		margin-left: 0px;
-	}
-
-	.row > .full-width {
-		padding: 0px;
-	}
-
 		.row > * {
 			box-sizing: border-box;
 		}
