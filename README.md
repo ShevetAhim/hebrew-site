@@ -16,5 +16,5 @@ It points to [CloudFlare](https://dash.cloudflare.com/1a71ca20d51f32031042d31177
 To deploy run
 
 ```
-pipenv run make github
+make github
 ```
