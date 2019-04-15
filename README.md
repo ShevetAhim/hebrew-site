@@ -3,9 +3,9 @@
 # Development
 
 ```
-pipenv sync
-pipenv run make regenerate &
-pipenv run make serve &
+pip-sync
+make regenerate &
+make serve &
 ```
 
 # Deployment
