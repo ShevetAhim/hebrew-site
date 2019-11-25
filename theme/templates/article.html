@@ -26,9 +26,8 @@
             </div>
 
             {% if article.gallery %}
-                {% set gallery = article.gallery %}
-                {% set num_of_images = article.num_of_images|int %}
-                {% include 'includes/gallery.html' %}
+                {% from 'macros/gallery.html' import gallery %}
+                {{ gallery(article.gallery, article.num_of_images|int) }}
             {% endif %}
 
 	    <a class="button whatsapp" href="https://api.whatsapp.com/send?phone=972526941188&text=פנייה_מהאתר">פנה ליזהר ב- WhatsApp</a>

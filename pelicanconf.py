@@ -2,6 +2,11 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
+import os
+import sys
+sys.path.append(os.curdir)
+import jinja2content
+
 AUTHOR = 'Tom Gurion'
 SITENAME = 'shevet-ahim'
 SITEURL = ''
@@ -36,3 +41,5 @@ DEFAULT_PAGINATION = False
 
 THEME = 'theme'
 SLUGIFY_SOURCE = 'basename'
+
+PLUGINS = [jinja2content]
