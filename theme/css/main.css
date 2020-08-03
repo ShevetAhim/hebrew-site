@@ -262,10 +262,13 @@ input, select, textarea {
 
 /* Row */
 
-.vertical-padding {
-	padding-top: 2em;
-	padding-bottom: 2em;
-}
+  .gallery {
+      margin-bottom: 2em;
+  }
+
+  .gallery > div {
+      padding: 20px 0 0 20px;
+  }
 
 	.row {
 		display: flex;
@@ -2301,6 +2304,11 @@ input, select, textarea {
 			padding: 4em;
 		}
 
+    .wrapper.style4.container {
+        max-width: 900px;
+    }
+
+
 /* Header */
 
 	@-moz-keyframes reveal-header {
@@ -2578,10 +2586,10 @@ input, select, textarea {
 	}
 
 		#banner .inner {
-			-moz-animation: reveal-banner 1s 0.25s ease-in-out;
-			-webkit-animation: reveal-banner 1s 0.25s ease-in-out;
-			-ms-animation: reveal-banner 1s 0.25s ease-in-out;
-			animation: reveal-banner 1s 0.25s ease-in-out;
+			-moz-animation: reveal-banner 0.5s 0s ease-in-out;
+			-webkit-animation: reveal-banner 0.5s 0s ease-in-out;
+			-ms-animation: reveal-banner 0.5s 0s ease-in-out;
+			animation: reveal-banner 0.5s 0s ease-in-out;
 			-moz-animation-fill-mode: forwards;
 			-webkit-animation-fill-mode: forwards;
 			-ms-animation-fill-mode: forwards;
