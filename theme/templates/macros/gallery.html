@@ -3,7 +3,7 @@
     {% for n in range(num_of_images) %}
     <div class="col-4 col-12-narrower">
         <div class="image fit">
-            <a href="images/{{ gallery_name }}/{{ n }}.jpg"><img src="images/{{ gallery_name }}/{{ n }}.jpg"></a>
+            <a data-fancybox="gallery" href="images/{{ gallery_name }}/{{ n }}.jpg"><img src="images/{{ gallery_name }}/{{ n }}.jpg"></a>
         </div>
     </div>
     {% endfor %}
