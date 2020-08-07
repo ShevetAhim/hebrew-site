@@ -20,6 +20,10 @@ num_of_images: 3
   <img src="images/irit_tour_flyer.jpg">
 </div>
 
+{% from 'macros/gallery.html' import gallery %}
+{{ gallery('lamps_walk_workshop', 3) }}
+
+
 ## סדנאת סיור וליקוט
 
 סיור בטבע איסוף מטעמי העונה מהאדמה
