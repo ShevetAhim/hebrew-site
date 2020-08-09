@@ -3,8 +3,6 @@ Author: יזהר גוריון
 Image: images/events/main.jpg
 Date: 2.1.2000
 summary: מתחם אירוח באווירה כפרית – סדנאות, פעילויות יום, ימי גיבוש לקבוצות, חברות, מנהלים ומתעניינים.
-gallery: events
-num_of_images: 3
 
 שבט אחים הינו מתחם אירוח באווירה כפרית – סדנאות, פעילויות יום, ימי גיבוש לקבוצות, חברות, מנהלים ומתעניינים.
 
@@ -84,7 +82,3 @@ num_of_images: 3
 
 {% from 'macros/gallery.html' import gallery %}
 {{ gallery('geometric_building_workshop', 3) }}
-
-<hr>
-
-לבירורים לגבי אירועים לקבוצות וחברות, צרו קשר עם אירית: <a href="tel:+972526941141">0526941141</a>
