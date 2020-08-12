@@ -262,11 +262,12 @@ input, select, textarea {
 
 /* Row */
 
-  .gallery {
+  .gallery.row {
+      margin-left: -20px;
       margin-bottom: 2em;
   }
 
-  .gallery > div {
+  .gallery.row > div {
       padding: 20px 0 0 20px;
   }
 
