@@ -6,7 +6,35 @@
 -->
 <html>
 <head>
-    {% include "includes/head.html" %}
+    <title>מתחם אירוח לקבוצות יחידים אירועים וסדנאות - שבט אחים</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="description" content="אכסניה / חאן אירוח לקבוצות ויחידים במגוון אפשרויות לינה. פעילויות יום סדנאות ואירועים לקבוצות ומשפחות בעמק יזרעאל / גליל תחתון / גליל מערבי"/>
+    <link rel="stylesheet" href="theme/css/main.css" />
+    <link rel="stylesheet" href="theme/css/jquery.fancybox.min.css" />
+    <noscript><link rel="stylesheet" href="theme/css/noscript.css" /></noscript>
+    <link rel="shortcut icon" type="image/png" href="theme/images/favicon.png"/>
+
+    <!-- Open graph protocol -->
+    <meta property="og:title" content="{% block ogtitle %}שבט אחים{% endblock %}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{% block ogurl %}{{ SITEURL }}{% endblock %}" />
+    <meta property="og:image:secure_url" itemprop="image" content="{% block ogimage %}{{ SITEURL }}/theme/images/og_image.jpg{% endblock %}" />
+    <meta property="og:description" content="{% block ogdescription %}אכסניה / חאן אירוח לקבוצות ויחידים במגוון אפשרויות לינה. פעילויות יום סדנאות ואירועים לקבוצות ומשפחות בעמק יזרעאל / גליל תחתון / גליל מערבי{% endblock %}" />
+
+    <!-- Twitter cards -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:image" content="{% block twitterimage %}{{ SITEURL }}/theme/images/og_image.jpg{% endblock %}" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-62733922-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-62733922-3');
+    </script>
 </head>
 <body class="{% if output_file == 'index.html' %}index{% else %}no-sidebar{% endif %} is-preload">
 		<div id="page-wrapper">
