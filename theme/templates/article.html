@@ -4,7 +4,7 @@
 {% block ogurl %}{{ SITEURL }}/{{ output_file }}{% endblock %}
 {% block ogimage %}{{ SITEURL }}/{% if article.full_image %}{{ article.full_image }}{% else %}{{ article.image }}{% endif %}{% endblock %}
 {% block twitterimage %}{{ SITEURL }}/{% if article.full_image %}{{ article.full_image }}{% else %}{{ article.image }}{% endif %}{% endblock %}
-{% block ogdescription %}{{ article.summary }}{% endblock %}
+{% block ogdescription %}{{ article.summary|striptags }}{% endblock %}
 
 {% block content %}
 
