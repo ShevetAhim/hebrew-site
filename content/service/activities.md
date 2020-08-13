@@ -32,7 +32,7 @@ summary: שלל סדנאות, פעילויות יום, ימי גיבוש לקב�
 זמן הסיור כשעה וחצי. מחיר: 50 ש"ח לאדם.
 
 {% from 'macros/gallery.html' import gallery %}
-{{ gallery('lamps_tour', 3) }}
+{{ gallery('lamps_tour', 4) }}
 
 <hr>
 
