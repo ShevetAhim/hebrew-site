@@ -8,7 +8,7 @@ date: 1.1.2000
 אירית: <a href=tel:+972526941141">0526941141</a>
 
 <div class="padding-bottom">
-    <form action="//formspree.io/bros.tribe@gmail.com" method="POST">
+    <form action="https://formspree.io/f/xnqovvwv" method="POST">
         <div class="row gtr-50">
             <div class="col-12">
                 <textarea type="text" name="content" placeholder="הודעה" rows="7"></textarea>
