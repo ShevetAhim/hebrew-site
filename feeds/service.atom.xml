@@ -209,4 +209,21 @@
 &lt;hr&gt;
 
 &lt;h2&gt;&lt;a name="extras"&gt;אפשרויות נוספות&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;לכל הסיורים והסדנאות אפשר להוסיף פעילויות כגון טקס קפה, סדנת קליעה ויציאה עם הרועה לסיבוב בתשלום נוסף.&lt;/p&gt;</content></entry></feed>
+&lt;p&gt;לכל הסיורים והסדנאות אפשר להוסיף פעילויות כגון טקס קפה, סדנת קליעה ויציאה עם הרועה לסיבוב בתשלום נוסף.&lt;/p&gt;
+&lt;div class="row vertical-padding gallery"&gt;
+    &lt;div class="col-4 col-12-narrower"&gt;
+        &lt;div class="image fit"&gt;
+            &lt;a data-fancybox="gallery" href="images/extra_activities/0.jpg"&gt;&lt;img src="images/extra_activities/0.jpg"&gt;&lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="col-4 col-12-narrower"&gt;
+        &lt;div class="image fit"&gt;
+            &lt;a data-fancybox="gallery" href="images/extra_activities/1.jpg"&gt;&lt;img src="images/extra_activities/1.jpg"&gt;&lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="col-4 col-12-narrower"&gt;
+        &lt;div class="image fit"&gt;
+            &lt;a data-fancybox="gallery" href="images/extra_activities/2.jpg"&gt;&lt;img src="images/extra_activities/2.jpg"&gt;&lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</content></entry></feed>
