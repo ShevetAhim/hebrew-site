@@ -9,6 +9,9 @@ summary: שלל סדנאות, פעילויות יום, ימי גיבוש לקב�
 - [סיפור וארוחה אצלינו בשבט אחים](#talk-and-lunch)
 - [סיור עששיות לאורך טיילת נחל ציפורי](#lamps-tour)
 - [סיור להכרת אורח החיים בכפר הבדואי טבאש](#tabash-tour)
+- [מפגש עם נשים מהכפר](#meeting-tabash-women)
+- [סדנא עם אורגת וקולעת מהכפר](#weaving-workshop)
+- [ארוחת בוקר מקומית](#breakfast)
 - [סדנאת סיור וליקוט](#likut-workshop)
 - [אפשרויות נוספות](#extras)
 
@@ -53,6 +56,35 @@ summary: שלל סדנאות, פעילויות יום, ימי גיבוש לקב�
 {% from 'macros/gallery.html' import gallery %}
 {{ gallery('tabash_tour', 5) }}
 
+<hr>
+
+## <a name="meeting-tabash-women">מפגש עם נשים מהכפר</a>
+
+נשמע את סיפורן של מלכה וספאא, סיפור מעניין של 2 נשים מהכפר, על חייהן בעבר ובהווה.
+
+מחיר: 30 ש"ח כתוספת לאחד הסיורים.
+
+{% from 'macros/gallery.html' import gallery %}
+{{ gallery('meeting_tabash_women', 2) }}
+
+<hr>
+
+## <a name="weaving-workshop">סדנא עם אורגת וקולעת מהכפר</a>
+
+נפגוש את אום וויפקי שתלמד אותנו לקלוע / לארגן. שעתיים של יצירה באווירה בדואית אותנטית.
+
+מחיר: 70 ש"ח למפגש של כשעתיים כתוספת לסיור.
+
+{% from 'macros/gallery.html' import gallery %}
+{{ gallery('weaving_workshop', 3) }}
+
+<hr>
+
+## <a name="weaving-workshop">סדנא עם אורגת וקולעת מהכפר</a>
+
+ארוחת בוקר אצל מלכה בבית.
+
+מחיר: 55 ש"ח לאדם.
 <hr>
 
 ## <a name="likut-workshop">סדנאת סיור וליקוט</a>
