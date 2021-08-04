@@ -1,0 +1,45 @@
+{% extends "base.html" %} {% block content %}
+
+  <section class="wrapper style2 container special">
+    <h2>פעילויות סיורים והרצאות</h2>
+
+    <p>
+      בשבט אחים אנו פותחים בפניכם שלל אפשרויות לסדנאות, פעילויות יום, ימי גיבוש
+      לקבוצות, חברות, מנהלים ומתעניינים. כאן תוכלו למצוא סיורים והרצאות המראים
+      לקהל את האפשרויות שטומן בחובו האיזור שלנו והמרחב המשותף שאנו חיים בו. ניתן
+      לשלב בין הפעילויות השונות ולהתאים אותן לפי הצורך בתיאום טלפוני.
+    </p>
+    <div class="row">
+      {% for article in articles|selectattr('category', 'equalto', 'activity') %}
+
+      <div class="col-4 col-12-narrower">
+        <section>
+          <a class="image fit" href="{{ article.url }}">
+            <img src="{{ article.image }}" />
+          </a>
+          <div class="card">
+            <header>
+              <a href="{{ article.url }}"><h3>{{ article.title }}</h3></a>
+            </header>
+            <p>
+              {% if article.price or article.duration %} {% if article.duration %}
+              <span class="fa fa-clock-o">&nbsp;{{ article.duration }}</span><br />
+              {% endif %} {% if article.price %}
+              <span
+                ><span class="fa fa-credit-card"></span>&nbsp;{{ article.price
+                }}&nbsp;ש"ח לאדם</span
+              >
+              {% endif %} {% endif %}
+            </p>          </div>
+        </section>
+      </div>
+
+      {% endfor %}
+    </div>
+
+    <a class="button whatsapp" href="https://api.whatsapp.com/send?phone=972526941188&text=פנייה_מהאתר">פנה ליזהר ב- WhatsApp</a>
+		<a class="button whatsapp" href="https://api.whatsapp.com/send?phone=972526941141&text=פנייה_מהאתר">פנה לאירית ב- WhatsApp</a>
+
+  </section>
+
+{% endblock %}

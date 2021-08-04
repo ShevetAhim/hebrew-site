@@ -1,0 +1,31 @@
+<section class="wrapper style3 container special">
+
+    <header class="major">
+    <h2>מגוון אפשרויות אירוח</h2>
+    </header>
+
+    <div class="row">
+
+        {% for article in articles|selectattr('category', 'equalto', 'accommodation') %}
+
+            <div class="col-6 col-12-narrower">
+
+                <a href="{{ article.url }}">
+                    <section>
+                        <div class="image featured">
+                            <img src="{{ article.image }}" alt="{{ article.title }}"/>
+                        </div>
+                        <header>
+                            <h3>{{ article.title }}</h3>
+                        </header>
+                        {{ article.summary }}
+                    </section>
+                </a>
+
+            </div>
+
+        {% endfor %}
+
+    </div>
+
+</section>

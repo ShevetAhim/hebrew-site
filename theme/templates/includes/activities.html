@@ -1,0 +1,35 @@
+<section class="wrapper style1 container special">
+  <h2>פעילויות סיורים והרצאות</h2>
+  <p>
+    שלל סדנאות, פעילויות יום, ימי גיבוש לקבוצות, חברות, מנהלים ומתעניינים.
+    הרשימה המלאה <a href="activities">כאן</a>.
+  </p>
+  <div class="row">
+    {% for article in articles|selectattr('category', 'equalto',
+    'activity')|batch(3)|first %}
+
+    <div class="col-4 col-12-narrower">
+      <section>
+        <a class="image featured" href="{{ article.url }}">
+          <img src="{{ article.image }}" />
+        </a>
+        <header>
+          <a href="{{ article.url }}"><h3>{{ article.title }}</h3></a>
+        </header>
+        <p>
+          {% if article.price or article.duration %} {% if article.duration %}
+          <span class="fa fa-clock-o">&nbsp;{{ article.duration }}</span><br />
+          {% endif %} {% if article.price %}
+          <span
+            ><span class="fa fa-credit-card"></span>&nbsp;{{ article.price
+            }}&nbsp;ש"ח לאדם</span
+          >
+          {% endif %} {% endif %}
+        </p>
+      </section>
+    </div>
+
+    {% endfor %}
+  </div>
+  <a href="activities" class="button">אפשרויות נוספות</a>
+</section>

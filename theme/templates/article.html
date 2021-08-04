@@ -8,37 +8,48 @@
 
 {% block content %}
 
-    <article id="main">
-        <header class="special container">
-            <span class="icon"></span>
-            <h2>{{ article.title }}</strong></h2>
-        </header>
+	<article id="main">
+		<header class="special container">
+			<span class="icon"></span>
+			<h2>{{ article.title }}</strong></h2>
+		</header>
 
-        <section class="wrapper style4 container">
+		<section class="wrapper style4 container">
 
-            <!-- Content -->
-            <div class="content">
-                <section>
-                    {% block article_content %}
-		        {% if article.full_image or article.image %}
-                            <div class="image featured">
-				<img src="{% if article.full_image %}{{ article.full_image }}{% else %}{{ article.image }}{% endif %}" alt="{{ article.title }}" />
-                            </div>
-                        {% endif %}
-                        {{ article.content }}
-                    {% endblock %}
-                </section>
-            </div>
+			<!-- Content -->
+			<div class="content">
+				<section>
+					{% if article.full_image or article.image %}
+						<div class="image featured">
+							<img src="{% if article.full_image %}{{ article.full_image }}{% else %}{{ article.image }}{% endif %}" alt="{{ article.title }}" />
+						</div>
+					{% endif %}
 
-            {% if article.gallery %}
-                {% from 'macros/gallery.html' import gallery %}
-                {{ gallery(article.gallery, article.num_of_images|int) }}
-            {% endif %}
+					{{ article.content }}
 
-	    <a class="button whatsapp" href="https://api.whatsapp.com/send?phone=972526941188&text=פנייה_מהאתר">פנה ליזהר ב- WhatsApp</a>
-	    <a class="button whatsapp" href="https://api.whatsapp.com/send?phone=972526941141&text=פנייה_מהאתר">פנה אירית ב- WhatsApp</a>
+					{% if article.price or article.duration %}
+					<ul>
+						{% if article.price %}
+							<li>מחיר: {{ article.price }} ש"ח לאדם</li>
+						{% endif %}
+						{% if article.duration %}
+							<li>זמן הפעילות: {{ article.duration }}</li>
+						{% endif %}
+					</ul>
+				{% endif %}
 
-        </section>
-    </article>
+				</section>
+			</div>
+
+			{% if article.gallery %}
+				{% from 'macros/gallery.html' import gallery %}
+				{{ gallery(article.gallery, article.num_of_images|int) }}
+			{% endif %}
+
+			<a class="button whatsapp" href="https://api.whatsapp.com/send?phone=972526941188&text=פנייה_מהאתר">פנה ליזהר ב- WhatsApp</a>
+			<a class="button whatsapp" href="https://api.whatsapp.com/send?phone=972526941141&text=פנייה_מהאתר">פנה לאירית ב- WhatsApp</a>
+
+		</section>
+	</article>
 
 {% endblock %}
