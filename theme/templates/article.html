@@ -1,10 +1,9 @@
 {% extends "base.html" %}
 
-{% block ogtitle %}שבט אחים - {{ article.title }}{% endblock %}
-{% block ogurl %}{{ SITEURL }}/{{ output_file }}{% endblock %}
-{% block ogimage %}{{ SITEURL }}/{% if article.full_image %}{{ article.full_image }}{% else %}{{ article.image }}{% endif %}{% endblock %}
-{% block twitterimage %}{{ SITEURL }}/{% if article.full_image %}{{ article.full_image }}{% else %}{{ article.image }}{% endif %}{% endblock %}
-{% block ogdescription %}{{ article.summary|striptags }}{% endblock %}
+{% set title='שבט אחים - ' ~ article.title %}
+{% set description=article.summary|striptags %}
+{% set url=SITEURL ~ '/' ~ output_file %}
+{% set image=SITEURL ~ '/' ~ article.image %}
 
 {% block content %}
 

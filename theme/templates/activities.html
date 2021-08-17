@@ -1,10 +1,9 @@
 {% extends "base.html" %}
 
-{% block ogtitle %}שבט אחים - פעילויות סיורים והרצאות{% endblock %}
-{% block ogurl %}{{ SITEURL }}/{{ output_file }}{% endblock %}
-{% block ogimage %}{{ SITEURL }}/images/activities.jpg{% endblock %}
-{% block twitterimage %}{{ SITEURL }}/images/activities.jpg{% endblock %}
-{% block ogdescription %}שלל סדנאות, פעילויות יום, ימי גיבוש לקבוצות, חברות, מנהלים ומתעניינים.{% endblock %}
+{% set title='שבט אחים - פעילויות סיורים והרצאות' %}
+{% set description='שלל סדנאות, פעילויות יום, ימי גיבוש לקבוצות, חברות, מנהלים ומתעניינים.' %}
+{% set url=SITEURL ~ '/' ~ output_file %}
+{% set image=SITEURL ~ '/images/activities.jpg' %}
 
 {% block content %}
 

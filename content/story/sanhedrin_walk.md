@@ -3,7 +3,6 @@ Date: 2018-11-28 16:00
 Author: יזהר גוריון
 Slug: sanhedrin-walk
 Image: images/stories/sanhedrin_walk.jpg
-full_image: images/stories/sanhedrin_walk_full.jpg
 Summary: פרויקט טיולים חדש הושלם באזורנו לכבוד 70 שנה למדינה: "שביל הסנהדרין" 70 ק"מ של היסטוריה מתעוררת לחיים
 
 פרויקט טיולים חדש הושלם באזורנו לכבוד 70 שנה למדינה: "שביל הסנהדרין" 70 ק"מ של היסטוריה מתעוררת לחיים.

@@ -10,6 +10,8 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
+SITEURL = 'https://www.shevet-ahim.co.il'
+
 DELETE_OUTPUT_DIRECTORY = True
 
 STATIC_PATHS = ['images', 'extra/CNAME']
